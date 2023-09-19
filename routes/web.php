@@ -23,3 +23,5 @@ Route::get('/info', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::resource('hobby','HobbyController');
