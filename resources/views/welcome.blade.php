@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    new in Laravel
+                    Hallo {{ auth()->user()->name ?? "" }}
                 </div>
 
                 <div class="links">
