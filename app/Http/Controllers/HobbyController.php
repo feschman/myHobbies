@@ -26,8 +26,10 @@ class HobbyController extends Controller
      */
     public function create()
     {
-        //
+        
+        return view('hobby.create');
     }
+   
 
     /**
      * Store a newly created resource in storage.
